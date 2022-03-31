@@ -10,7 +10,6 @@ import (
 func GetAllPlayers(repo repository.IRepository, w http.ResponseWriter, _ *http.Request) {
 	players := repo.GetAllPlayers()
 	respondJSON(w, http.StatusOK, players)
-	return
 }
 
 func CreatePlayer(repo repository.IRepository, w http.ResponseWriter, r *http.Request) {
