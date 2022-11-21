@@ -9,7 +9,7 @@ require (
 	github.com/jinzhu/gorm v1.9.16
 	github.com/sirupsen/logrus v1.9.0
 	github.com/stretchr/testify v1.8.0
-	gorm.io/gorm v1.23.6
+	gorm.io/gorm v1.24.2
 )
 
 require (
